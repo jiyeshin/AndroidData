@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileUse1005"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="파일에 저장"
+        android:onClick="click"
+        android:id="@+id/btnsave"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="파일에서 읽기"
+        android:onClick="click"
+        android:id="@+id/btnread"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="파일 삭제"
+        android:onClick="click"
+        android:id="@+id/btndelete"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리소스에서 읽기"
+        android:onClick="click"
+        android:id="@+id/btnreadres"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리소스에서 복사 - 이미지 파일 읽기"
+        android:onClick="click"
+        android:id="@+id/btnimgcopy"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxt"/>
+
+
+</LinearLayout>

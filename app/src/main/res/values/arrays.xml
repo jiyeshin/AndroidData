@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="month">
-        <item>1월</item>
-        <item>2월</item>
-        <item>3월</item>
-        <item>4월</item>
-        <item>5월</item>
-        <item>6월</item>
-        <item>7월</item>
-        <item>8월</item>
-        <item>9월</item>
-        <item>10월</item>
-        <item>11월</item>
-        <item>12월</item>
+    <string-array name="title">
+        <item>판타지</item>
+        <item>꽃이야</item>
+        <item>매일</item>
+        <item>꿈을꾼듯</item>
+        <item>트루컬러스</item>
+        <item>세마넴</item>
+        <item>원더플데이</item>
+        <item>부를게</item>
+        <item>온마마인</item>
     </string-array>
 </resources>

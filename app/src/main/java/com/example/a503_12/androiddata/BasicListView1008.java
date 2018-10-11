@@ -16,7 +16,7 @@ public class BasicListView1008 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic_list_view1008);
-
+/*
         //출력할 데이터 배열이나 list 생성
         //String [] month = {"1월", "2월", "3월", "4월", "5월", "6월", "7월","8월","9월","10월","11월","12월",};
 
@@ -44,6 +44,7 @@ public class BasicListView1008 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(BasicListView1008.this, position + "번째 선택", Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
     }
+
 }
